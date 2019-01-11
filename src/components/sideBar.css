@@ -1,0 +1,17 @@
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2B2F3E;
+    padding-top: 20px;
+    text-align: center;
+}
+.sidebar h1 {
+    font-weight: normal;
+    color: white;
+}
+.sidebar p {
+    color: darkgray;
+}  

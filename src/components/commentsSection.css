@@ -1,0 +1,32 @@
+.comments-section {
+    box-shadow: 0px 0px 26px 1px rgba(0, 0, 0, 0.39);
+    border-radius: 7px 7px 7px 7px;
+    border: 0px solid #000000;
+    background-color: #ffffff;
+    width: 35%;
+    padding: 20px;
+    margin-top: 40px;
+    overflow-y: scroll;
+  }
+
+.comments-section li {
+    list-style: none;
+    margin: 20px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.comments-section h1{
+    font-weight: normal;
+}
+.comment-input input{
+    height: 80px;
+    width: 80%;
+    display: inline-block;
+}
+.avatar{
+    background-color: #E6E6E6;
+    width:52px;
+    height:52px;
+    display: inline-block;
+}

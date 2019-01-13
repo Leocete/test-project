@@ -11,7 +11,8 @@ export default class ListInput extends React.Component {
     
     addItem = (item) => {
         // Ensure the todo text isn't empty
-        if (item.length > 0) {
+        if (item.length > 0 && item.match(/[a-z0-9A-Z]/i)) {
+          item = item.trim();  
           this.props.addItem(item);
           this.setState({value: ''});
         }   
